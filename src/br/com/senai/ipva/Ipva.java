@@ -1,8 +1,8 @@
 package br.com.senai.ipva;
 
 public class Ipva extends Veiculo {
-		protected double valorIPVA;
-		protected double taxaLicenciamento;
+		private double valorIPVA;
+		private double taxaLicenciamento;
 		
 
 		public Ipva(String modelo, String placa, String combustivel, double valorVeiculo, double taxaLicenciamento) {
